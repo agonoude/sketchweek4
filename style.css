@@ -4,29 +4,43 @@
 .asciiesque{
 background-color: black;
 color:white;
+background-color:black;
+
+    color:white;
+    font-size:12;
+    margin-top:10%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:10%;
 }
+
+.moonimagepos{
+    margin-top:100px;
+    margin-left:450px;
+}
+
+
 
 .dogtail:before{
     content:'';
     animation:dogtailwave infinite 2s;
 }
 
-@keyframes jareddance {
+@keyframes movingmoon {
     0%{
-        content:'/`\005C';
+        position:+5;
     }
 
     33%{
-        content: ' /`\005C';
+        position:10;
     }
 
     66%{
-        content: '\005C`\005C';
+        position-15;
     }
 
-    100%{content:' \005C\005C   \002F  \005C   //'}
-
-
+    100%{content:''}
+}
 
 /*
 
